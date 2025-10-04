@@ -1,0 +1,11 @@
+app:
+  clients:
+    news:
+      baseUrl: "http://localhost:8081/api/news"
+      timeout: 5s
+    finance:
+      baseUrl: "http://localhost:8082/api/finance"
+      timeout: 5s
+    trends:
+      baseUrl: "http://localhost:8083/api/trends"
+      timeout: 5s
